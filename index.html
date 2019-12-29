@@ -3,8 +3,32 @@
  <meta http-equiv="Content-Language" content="zh-CN"> 
  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <title>缝隙 | YOYO</title> 
+<style>
+body{
+  margin:0; 
+  padding:0; 
+  overflow-y:hidden
+}
+</style>
+<script> 
+window.onerror=function(){return true;} 
+$(function(){ 
+  headerH = 0;  
+  var h=$(window).height();
+  $("#iframe").height((h-headerH)+"px"); 
+});
+</script>
  </head> 
- <frameset framespacing="0" border="0" rows="0" frameborder="0" allowfullscreen="true"> 
- <frame name="main" src="https://www.yoyospace.top/my2019-2156" scrolling="auto" allowfullscreen="true" noresize> 
- </frameset> 
+ <body>
+ <iframe name="main" src="https://www.yoyospace.top/my2019-2156" 
+    frameborder="0" 
+	width="100%" 
+	height="100%" 
+	scrolling="yes" 
+	allowfullscreen="true" 
+	webkitallowfullscreen="true"
+	mozallowfullscreen="true"
+	scrolling="auto" >
+</iframe>	
+</body>
  </html>
